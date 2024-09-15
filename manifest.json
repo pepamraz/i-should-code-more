@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Coding Spotify",
+    "version": "1.0",
+    "description": "Redirects addictive websites to coding spotify playlist.",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+  
